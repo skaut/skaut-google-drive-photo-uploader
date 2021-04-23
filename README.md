@@ -1,1 +1,1 @@
-# skaut-google-drive-photo-uploader
+# Google Drive Photo Uploader

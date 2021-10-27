@@ -1,6 +1,6 @@
 # Photo Uploader pro Skautí fotobanku
 
-**Tento plugin pro Wordpress díky propojení pluginů Gravity Forms a Use-Your-Drive umožňuje nahrávání fotografií na Google Drive skautské fotobanky.**
+**Tento plugin pro WordPress díky propojení pluginů Gravity Forms a Use-Your-Drive umožňuje nahrávání fotografií na Google Drive skautské fotobanky.**
 Plugin na základě dat vyplněných ve formuláři generuje fixně formátované popisky pro každý nahrávaný soubor (fotku) a umožňuje
 tak do fotobanky přenášet metadata, která jsou pro organizaci fotobanky klíčové.
 

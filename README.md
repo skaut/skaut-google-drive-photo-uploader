@@ -44,7 +44,7 @@ _V tuto chvíli nelze v administraci jednoduše definovat další hodnoty, kter�
 na základě předchozích vyplnění formuláře. Tato změna vyžaduje zásah do kódu pluginu._ 
 
 ### Vytvoření nového pole a přidání do Google Drive popisku
-Plugin umožňuje přímo z administrace Wordpressu přidávat či odebírat formulářová pole. Data z jednotlivých polí formuláře jsou do
+Plugin umožňuje přímo z administrace WordPressu přidávat či odebírat formulářová pole. Data z jednotlivých polí formuláře jsou do
 formátovaného popisku vkládána na základně admin labelů nastavených u jednotlivých polí. Každé pole formuláře má tedy nastaven tento
 popisek podle kterého je pak možné hodnotu tohoto pole umístit nejen do popisku ale i notifikačních e-mailů či do zprávy zobrazené 
 po odeslání formuláře.

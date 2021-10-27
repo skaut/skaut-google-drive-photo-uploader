@@ -22,7 +22,7 @@ a [Use-your-Drive](https://www.wpcloudplugins.com/plugins/use-your-drive-wordpre
 tedy nutné k využití funkcionality tohoto pluginu.
 
 ### Předpoklady
-- Wordpress 5.7.3 a vyšší
+- WordPress 5.7.3 a vyšší
 - Gravity Forms 2.5.9 a vyšší
 - Use-your-Drive 1.17.6 a vyšší
 
@@ -30,13 +30,13 @@ tedy nutné k využití funkcionality tohoto pluginu.
 1. Nainstalujte pluginy Gravity Forms a Use Your Drive.
 1. Propojte plugin Use Your Drive s Google účtem a proveďte jeho úvodní nastavení.
 1. Proveďte úvodní nastavení pluginu Gravity Forms.
-1. Zabalte obsah celého repozitáře do zip balíčku a ten nainstalujte do Wordpressu jako plugin.
+1. Zabalte obsah celého repozitáře do zip balíčku a ten nainstalujte do WordPressu jako plugin.
 1. Importujte formulář ze souboru `gravityforms-export.json`, který je součástí tohoto pluginu.
 1. Vytvořte stránku a vložte do ní vytvořený formulář např. pomocí shortcodu `[gravityform id="x"]`.
 
 ## Konfigurace pluginu
 
-V tuto chvíli lze z administrace Wordpressu kromě jakýchkoliv běžných úprav formulářových polí provádět dva úkony. Předně přidávání
+V tuto chvíli lze z administrace WordPressu kromě jakýchkoliv běžných úprav formulářových polí provádět dva úkony. Předně přidávání
 nových formulářových polí a jejich přidání do popisku ukládaného do Google Drive a druhak úprava chování pluginu Use-your-Drive pro
 nahrávání fotografií.
 

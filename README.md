@@ -1,6 +1,6 @@
 # Photo Uploader pro Skautí fotobanku
 
-**Tento plugin pro Wordpress díky propojení pluginů Gravity Forms a Use-Your-Drive umožňuje nahrávání fotografií na Google Drive skautské fotobanky.**
+**Tento plugin pro WordPress díky propojení pluginů Gravity Forms a Use-Your-Drive umožňuje nahrávání fotografií na Google Drive skautské fotobanky.**
 Plugin na základě dat vyplněných ve formuláři generuje fixně formátované popisky pro každý nahrávaný soubor (fotku) a umožňuje
 tak do fotobanky přenášet metadata, která jsou pro organizaci fotobanky klíčové.
 
@@ -22,7 +22,7 @@ a [Use-your-Drive](https://www.wpcloudplugins.com/plugins/use-your-drive-wordpre
 tedy nutné k využití funkcionality tohoto pluginu.
 
 ### Předpoklady
-- Wordpress 5.7.3 a vyšší
+- WordPress 5.7.3 a vyšší
 - Gravity Forms 2.5.9 a vyšší
 - Use-your-Drive 1.17.6 a vyšší
 
@@ -30,13 +30,13 @@ tedy nutné k využití funkcionality tohoto pluginu.
 1. Nainstalujte pluginy Gravity Forms a Use Your Drive.
 1. Propojte plugin Use Your Drive s Google účtem a proveďte jeho úvodní nastavení.
 1. Proveďte úvodní nastavení pluginu Gravity Forms.
-1. Zabalte obsah celého repozitáře do zip balíčku a ten nainstalujte do Wordpressu jako plugin.
+1. Zabalte obsah celého repozitáře do zip balíčku a ten nainstalujte do WordPressu jako plugin.
 1. Importujte formulář ze souboru `gravityforms-export.json`, který je součástí tohoto pluginu.
 1. Vytvořte stránku a vložte do ní vytvořený formulář např. pomocí shortcodu `[gravityform id="x"]`.
 
 ## Konfigurace pluginu
 
-V tuto chvíli lze z administrace Wordpressu kromě jakýchkoliv běžných úprav formulářových polí provádět dva úkony. Předně přidávání
+V tuto chvíli lze z administrace WordPressu kromě jakýchkoliv běžných úprav formulářových polí provádět dva úkony. Předně přidávání
 nových formulářových polí a jejich přidání do popisku ukládaného do Google Drive a druhak úprava chování pluginu Use-your-Drive pro
 nahrávání fotografií.
 
@@ -44,7 +44,7 @@ _V tuto chvíli nelze v administraci jednoduše definovat další hodnoty, kter�
 na základě předchozích vyplnění formuláře. Tato změna vyžaduje zásah do kódu pluginu._ 
 
 ### Vytvoření nového pole a přidání do Google Drive popisku
-Plugin umožňuje přímo z administrace Wordpressu přidávat či odebírat formulářová pole. Data z jednotlivých polí formuláře jsou do
+Plugin umožňuje přímo z administrace WordPressu přidávat či odebírat formulářová pole. Data z jednotlivých polí formuláře jsou do
 formátovaného popisku vkládána na základně admin labelů nastavených u jednotlivých polí. Každé pole formuláře má tedy nastaven tento
 popisek podle kterého je pak možné hodnotu tohoto pole umístit nejen do popisku ale i notifikačních e-mailů či do zprávy zobrazené 
 po odeslání formuláře.

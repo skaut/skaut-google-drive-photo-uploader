@@ -82,7 +82,7 @@ function populate_field_values_to_form($form)
 
 	// Output little snippet that hides the descriptions from the user
 	echo "
-	<style type='text/css'>
+	<style>
 	#UseyourDrive .fileupload-table-text-subtitle {
 	display: none;
 	}

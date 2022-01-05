@@ -52,7 +52,7 @@ function populate_field_values_to_form($form)
 	$entry_id = uniqid("ID");
 
 	// If copyright field is empty, generate default one from othe fields
-	if(!get_post_value($form, $_POST, 'copyright') && get_post_value($form, $_POST, 'first_name') && get_post_value($form, $_POST, 'last_name') && get_post_value($form, $_POST, 'nickname'))
+	if((!get_post_value($form, $_POST, 'copyright') || get_post_value($form, $_POST, 'copyright') === '') && get_post_value($form, $_POST, 'first_name') && get_post_value($form, $_POST, 'last_name') && get_post_value($form, $_POST, 'nickname'))
 		$_POST['input_' . get_field_by_admin_label($form, 'copyright')->id] =
 			get_post_value($form, $_POST, 'first_name') . ' ' . get_post_value($form, $_POST, 'last_name') . ' - ' .
 			get_post_value($form, $_POST, 'nickname');

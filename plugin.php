@@ -9,7 +9,14 @@
 * Requires PHP:      7.2
 * Author:            Honza Kopecký, honza.kopecky95@gmail.com
 * License:           GPL v2 or later
+* Text Domain:       skaut-photo-uplaoder
+* Domain Path:       /lang
 */
+
+function skautphotouploader_load_textdomain() {
+	load_plugin_textdomain( 'skaut-photo-uplaoder', false, dirname( plugin_basename( __FILE__ ) ) . '/lang' );
+}
+add_action( 'init', 'skautphotouploader_load_textdomain' );
 
 /**
  * Attach script that sets the generated file description to each file added through Use-Your-Drive plugin.

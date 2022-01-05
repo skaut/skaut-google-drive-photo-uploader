@@ -251,3 +251,25 @@ function save_photo_uploader_defaults($entry, $form) {
 	update_user_meta(wp_get_current_user()->ID, 'photo_uploader_defaults', $defaults);
 }
 add_filter( 'gform_entry_post_save', 'save_photo_uploader_defaults', 10, 2 );
+
+add_filter( 'gform_field_validation', 'validate_date_fields', 10, 4 );
+function validate_date_fields( $result, $value, $form, $field ) {
+	if(!is_photo_uploader($form))
+		return $result;
+
+	if ( $field->get_input_type() == 'date' ) {
+		try {
+			$start = new DateTime( get_post_value( $form, $_POST, 'start' ) );
+			$end   = new DateTime( get_post_value( $form, $_POST, 'end' ) );
+		} catch(Exception $e) {
+			// date is likely in a wrong format but this should be handled by gravity forms itself
+		}
+
+		if ( $start > $end ) {
+			$result['is_valid'] = false;
+			$result['message']  = __('Event start must be before it\'s end.', 'skaut-photo-uploader');
+		}
+	}
+
+	return $result;
+}

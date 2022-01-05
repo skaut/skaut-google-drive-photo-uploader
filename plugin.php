@@ -143,7 +143,8 @@ function get_post_value($form, $entry, $admin_label, $key_prefix = 'input_') {
 	}
 
 	// Return all values as a string connected by ','
-	return join(',', $values);
+	// remove all new lines
+	return htmlspecialchars(trim(preg_replace('/\s+/', ' ', join(',', $values))));
 }
 
 /** Will return first field object of the form corresponding to the type

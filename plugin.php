@@ -4,7 +4,7 @@
 *
 * Plugin Name:       Photo Uploader pro Skautí fotobanku
 * Description:       Plugin propojující pluginy Gravity Forms a Use-Your-Drive umožňující nahrávání fotografií na  Google Drive skautské fotobanky.
-* Version:           1.1.0
+* Version:           1.1.1
 * Requires at least: 5.2
 * Requires PHP:      7.2
 * Author:            Honza Kopecký, honza.kopecky95@gmail.com
